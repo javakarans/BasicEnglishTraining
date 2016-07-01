@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Mohammad on 7/1/2016.
  */
-public class Section extends Lesson{
+public class Section {
     private String idSec;
     private String name;
     private List<Lesson> lessonList;

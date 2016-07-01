@@ -5,7 +5,7 @@ package org.friends.basicenglishtraining.model;
  */
 public class FillTheBlank extends Question {
  //sina king size
-    int s;
+
 
 
 }
