@@ -5,4 +5,5 @@ package org.friends.basicenglishtraining.model;
  */
 public class MatchPatternQuestion extends Question  {
 
+
 }
