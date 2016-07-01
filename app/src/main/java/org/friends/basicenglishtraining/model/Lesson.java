@@ -10,7 +10,6 @@ public class Lesson {
     private String idSection;
     private String name;
     private List<Word> wordList;
-    private List<Question> questionList;
 
     public String getLessonId() {
         return lessonId;
@@ -44,11 +43,5 @@ public class Lesson {
         this.wordList = wordList;
     }
 
-    public List<Question> getQuestionList() {
-        return questionList;
-    }
 
-    public void setQuestionList(List<Question> questionList) {
-        this.questionList = questionList;
-    }
 }
