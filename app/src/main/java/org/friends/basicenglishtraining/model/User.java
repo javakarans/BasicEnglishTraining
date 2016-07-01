@@ -4,22 +4,49 @@ package org.friends.basicenglishtraining.model;
  * Created by Mohammad on 7/1/2016.
  */
 public class User {
-    private String  idUSer;
-    private String imail;
+    private String idUser;
+    private String fullName;
+    private String userName;
+    private String pass;
+    private String email;
 
-    public String getIdUSer() {
-        return idUSer;
+    public String getIdUser() {
+        return idUser;
     }
 
-    public void setIdUSer(String idUSer) {
-        this.idUSer = idUSer;
+    public void setIdUser(String idUser) {
+        this.idUser = idUser;
     }
 
-    public String getImail() {
-        return imail;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setImail(String imail) {
-        this.imail = imail;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
