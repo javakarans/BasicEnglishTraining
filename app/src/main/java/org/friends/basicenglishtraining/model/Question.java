@@ -4,16 +4,18 @@ package org.friends.basicenglishtraining.model;
  * Created by Mohammad on 7/1/2016.
  */
 public abstract class  Question {
-      private String idQuestion;
+      private String type;
       private String idLesson;
+      String idSection;
       private String answer;
 
+
       public String getIdQuestion() {
-            return idQuestion;
+            return type;
       }
 
       public void setIdQuestion(String idQuestion) {
-            this.idQuestion = idQuestion;
+            this.type = idQuestion;
       }
 
       public String getIdLesson() {
