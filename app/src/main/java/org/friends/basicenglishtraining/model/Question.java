@@ -3,7 +3,7 @@ package org.friends.basicenglishtraining.model;
 /**
  * Created by Mohammad on 7/1/2016.
  */
-public class Question {
+public abstract class  Question {
       private String idQuestion;
       private String idLesson;
       private String answer;
@@ -28,7 +28,5 @@ public class Question {
             return answer;
       }
 
-      public void setAnswer(String answer) {
-            this.answer = answer;
-      }
+
 }
