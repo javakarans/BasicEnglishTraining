@@ -8,7 +8,6 @@ public class FetchingData {
     //section
     //lesson
     //word
-    //user
     //question
 
 }
