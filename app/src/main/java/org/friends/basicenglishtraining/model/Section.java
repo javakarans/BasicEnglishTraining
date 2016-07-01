@@ -6,7 +6,31 @@ import java.util.List;
  * Created by Mohammad on 7/1/2016.
  */
 public class Section extends Lesson{
-    String idSec;
-    String name;
-    List<Lesson> lessonList;
+    private String idSec;
+    private String name;
+    private List<Lesson> lessonList;
+
+    public String getIdSec() {
+        return idSec;
+    }
+
+    public void setIdSec(String idSec) {
+        this.idSec = idSec;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Lesson> getLessonList() {
+        return lessonList;
+    }
+
+    public void setLessonList(List<Lesson> lessonList) {
+        this.lessonList = lessonList;
+    }
 }
