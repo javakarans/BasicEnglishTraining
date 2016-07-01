@@ -6,16 +6,16 @@ package org.friends.basicenglishtraining.model;
 public abstract class  Question {
       private String type;
       private String idLesson;
-      String idSection;
+      private String idSection;
       private String answer;
 
 
-      public String getIdQuestion() {
+      public String getType() {
             return type;
       }
 
-      public void setIdQuestion(String idQuestion) {
-            this.type = idQuestion;
+      public void setType(String type) {
+            this.type = type;
       }
 
       public String getIdLesson() {
@@ -26,9 +26,19 @@ public abstract class  Question {
             this.idLesson = idLesson;
       }
 
+      public String getIdSection() {
+            return idSection;
+      }
+
+      public void setIdSection(String idSection) {
+            this.idSection = idSection;
+      }
+
       public String getAnswer() {
             return answer;
       }
 
-
+      public void setAnswer(String answer) {
+            this.answer = answer;
+      }
 }
