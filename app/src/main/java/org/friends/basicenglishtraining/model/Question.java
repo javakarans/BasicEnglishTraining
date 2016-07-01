@@ -5,6 +5,6 @@ package org.friends.basicenglishtraining.model;
  */
 public class Question {
       String idQuestion;
-    String idLesson;
-     String answer;
+      String idLesson;
+      String answer;
 }

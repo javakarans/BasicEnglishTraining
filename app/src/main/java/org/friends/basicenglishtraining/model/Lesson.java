@@ -9,6 +9,6 @@ public class Lesson {
     String lessonId;
     String idSection;
     String name;
-    List<Word>;
-    List<Question>;
+    List<Word> wordList;
+    List<Question> questionList;
 }

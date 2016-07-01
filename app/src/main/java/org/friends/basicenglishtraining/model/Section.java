@@ -8,5 +8,5 @@ import java.util.List;
 public class Section {
     String idSec;
     String name;
-    List<Lesson>;
+    List<Lesson> lessonList;
 }

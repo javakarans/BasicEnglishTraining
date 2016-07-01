@@ -9,5 +9,5 @@ public class Word {
     String name;
     String meaning;
     String synonim;
-   String example;
+    String example;
 }
