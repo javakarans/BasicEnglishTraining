@@ -6,9 +6,49 @@ import java.util.List;
  * Created by Mohammad on 7/1/2016.
  */
 public class Lesson {
-    String lessonId;
-    String idSection;
-    String name;
-    List<Word> wordList;
-    List<Question> questionList;
+    private String lessonId;
+    private String idSection;
+    private String name;
+    private List<Word> wordList;
+    private List<Question> questionList;
+
+    public String getLessonId() {
+        return lessonId;
+    }
+
+    public void setLessonId(String lessonId) {
+        this.lessonId = lessonId;
+    }
+
+    public String getIdSection() {
+        return idSection;
+    }
+
+    public void setIdSection(String idSection) {
+        this.idSection = idSection;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Word> getWordList() {
+        return wordList;
+    }
+
+    public void setWordList(List<Word> wordList) {
+        this.wordList = wordList;
+    }
+
+    public List<Question> getQuestionList() {
+        return questionList;
+    }
+
+    public void setQuestionList(List<Question> questionList) {
+        this.questionList = questionList;
+    }
 }
