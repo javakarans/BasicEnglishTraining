@@ -5,4 +5,10 @@ package org.friends.basicenglishtraining.controller;
  */
 public class FetchingData {
 
+    //section
+    //lesson
+    //word
+    //user
+    //question
+
 }
